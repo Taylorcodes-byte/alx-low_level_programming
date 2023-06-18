@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 /**
- * main-prints lowercase and uppercase alphabets
+ * main - Entry point
  *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,7 +15,7 @@ int main(void)
 		putchar(l);
 		l++;
 	}
-	while(u <= 'Z')
+	while (u <= 'Z')
 	{
 		putchar(u);
 		u++;
