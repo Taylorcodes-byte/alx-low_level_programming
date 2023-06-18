@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -7,7 +12,6 @@ int main(void)
 	{
 		putchar('a' + n);
 	}
-
 	putchar('\n');
 	return (0);
 }
