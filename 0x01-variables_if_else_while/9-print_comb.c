@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - outputs nums separated by commas
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
