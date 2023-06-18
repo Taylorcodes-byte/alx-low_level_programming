@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * main - outputs nums separated by commas
  *
@@ -6,7 +7,7 @@
  */
 int main(void)
 {
-	int num='0';
+	int num = '0';
 
 	while (num <= '9')
 	{
