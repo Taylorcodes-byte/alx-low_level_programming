@@ -1,15 +1,14 @@
 #include<stdio.h>
 
 /**
- * main - prints lowercase alphabet in reverse
+ * main - Entry point
  *
- * Return: Always 0 (success)
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char alpha = 'z';
-	
+
 	while (alpha >= 'a')
 	{
 		putchar(alpha);
