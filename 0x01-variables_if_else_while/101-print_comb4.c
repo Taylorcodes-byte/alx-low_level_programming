@@ -7,39 +7,35 @@
  */
 int main(void)
 {
-	int num_1, num_2, num_3;
+	int m, n;
+	int a, b, c, d;
 
-	num_1 = '0';
-	num_2 = '0';
-	num_3 = '0';
-
-	while (num_1 <= '9')
+	for (m = 0; m < 100; m++)
 	{
-		while (num_2 <= '9')
-		{
-			num_3 = '0';
-			while (num_3 <= '9')
-			{
-				if (num_1 < num_2 && num_2 < num_3)
-				{
-					putchar(num_1);
-					putchar(num_2);
-					putchar(num_3);
+		a = m / 10;
+		b = m % 10;
 
-					if (num_1 != '7')
-					{
-						putchar(',');
-						putchar(' ');
-					}
+		for (n = 0; n < 100; n++)
+		{
+			c = n / 10;
+			d = n % 10;
+
+			if (a < c || (a == c && b < d))
+			{
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(32);
+				putchar(c + '0');
+				putchar(d + '0');
+
+				if (!(a == 9 && b == 8))
+				{
+					putchar(44);
+					putchar(32);
 				}
-				num_3++;
 			}
-			num_2++;
 		}
-		num_1++;
-		num_2 = '0';
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
-
