@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * main - Entry point
  *
@@ -6,15 +7,14 @@
  */
 int main(void)
 {
-	char alp = 'a';
-	
-	while (alp <= 'z')
+	char alpha = 'a';
+	while (alpha <= 'z')
 	{
-		if (alp != 'e' && alp != 'q')
+		if (alpha != 'e' && alpha != 'q')
 		{
-			putchar(alp);
+			putchar(alpha);
 		}
-		alp++;
+		alpha++;
 	}
 	putchar('\n');
 	return (0);
