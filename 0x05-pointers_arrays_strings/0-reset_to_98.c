@@ -14,6 +14,5 @@ int main(void)
 
 	reset_to_98(&num);
 	printf("After: %d\n", num); 
-	return 0;
+	return (0);
 }
-
