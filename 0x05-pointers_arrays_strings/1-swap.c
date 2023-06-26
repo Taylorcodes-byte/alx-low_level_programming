@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	int num1 = 1;
-	int num1 = 2;
+	int n1 = 1;
+	int n2 = 2;
 
-	printf("Before swap: num1 = %d, num2 = %d\n", num1, num2);
+	printf("Before swap: n1 = %d, n2 = %d\n", n1, n2);
 
-	swap_int(&num1, &num2);
-	printf("After swap: num1 = %d, num2 = %d\n", num1, num2);
+	swap_int(&n1, &n2);
+	printf("After swap: n1 = %d, n2 = %d\n", n1, n2);
 	return (0);
 }
